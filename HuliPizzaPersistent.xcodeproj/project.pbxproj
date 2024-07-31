@@ -11,6 +11,7 @@
 		B46FF1B72C5A1AC300CEB882 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FF1B62C5A1AC300CEB882 /* ContentView.swift */; };
 		B46FF1B92C5A1AC500CEB882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46FF1B82C5A1AC500CEB882 /* Assets.xcassets */; };
 		B46FF1BC2C5A1AC500CEB882 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46FF1BB2C5A1AC500CEB882 /* Preview Assets.xcassets */; };
+		B46FF1CA2C5A1BE600CEB882 /* RatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FF1C92C5A1BE600CEB882 /* RatingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B46FF1B62C5A1AC300CEB882 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B46FF1B82C5A1AC500CEB882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46FF1BB2C5A1AC500CEB882 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46FF1C92C5A1BE600CEB882 /* RatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		B46FF1B32C5A1AC300CEB882 /* HuliPizzaPersistent */ = {
 			isa = PBXGroup;
 			children = (
+				B46FF1B42C5A1AC300CEB882 /* HuliPizzaPersistentApp.swift */,
+				B46FF1B62C5A1AC300CEB882 /* ContentView.swift */,
 				B46FF1C82C5A1B9E00CEB882 /* Names */,
 				B46FF1C72C5A1B9600CEB882 /* Ratings */,
 				B46FF1C62C5A1B8C00CEB882 /* Orders */,
@@ -58,8 +62,6 @@
 				B46FF1C42C5A1B7700CEB882 /* Menu */,
 				B46FF1C32C5A1B7100CEB882 /* Layout */,
 				B46FF1C22C5A1B6600CEB882 /* Models */,
-				B46FF1B42C5A1AC300CEB882 /* HuliPizzaPersistentApp.swift */,
-				B46FF1B62C5A1AC300CEB882 /* ContentView.swift */,
 				B46FF1B82C5A1AC500CEB882 /* Assets.xcassets */,
 				B46FF1BA2C5A1AC500CEB882 /* Preview Content */,
 			);
@@ -77,6 +79,7 @@
 		B46FF1C22C5A1B6600CEB882 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B46FF1C92C5A1BE600CEB882 /* RatingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46FF1CA2C5A1BE600CEB882 /* RatingModel.swift in Sources */,
 				B46FF1B72C5A1AC300CEB882 /* ContentView.swift in Sources */,
 				B46FF1B52C5A1AC300CEB882 /* HuliPizzaPersistentApp.swift in Sources */,
 			);

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct HuliPizzaPersistentApp: App {
@@ -13,5 +14,6 @@ struct HuliPizzaPersistentApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [RatingModel.self])
     }
 }
