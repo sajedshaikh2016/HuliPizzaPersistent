@@ -51,6 +51,13 @@
 		B46FF1B32C5A1AC300CEB882 /* HuliPizzaPersistent */ = {
 			isa = PBXGroup;
 			children = (
+				B46FF1C82C5A1B9E00CEB882 /* Names */,
+				B46FF1C72C5A1B9600CEB882 /* Ratings */,
+				B46FF1C62C5A1B8C00CEB882 /* Orders */,
+				B46FF1C52C5A1B8500CEB882 /* Tickets */,
+				B46FF1C42C5A1B7700CEB882 /* Menu */,
+				B46FF1C32C5A1B7100CEB882 /* Layout */,
+				B46FF1C22C5A1B6600CEB882 /* Models */,
 				B46FF1B42C5A1AC300CEB882 /* HuliPizzaPersistentApp.swift */,
 				B46FF1B62C5A1AC300CEB882 /* ContentView.swift */,
 				B46FF1B82C5A1AC500CEB882 /* Assets.xcassets */,
@@ -65,6 +72,55 @@
 				B46FF1BB2C5A1AC500CEB882 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B46FF1C22C5A1B6600CEB882 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B46FF1C32C5A1B7100CEB882 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		B46FF1C42C5A1B7700CEB882 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B46FF1C52C5A1B8500CEB882 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		B46FF1C62C5A1B8C00CEB882 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		B46FF1C72C5A1B9600CEB882 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		B46FF1C82C5A1B9E00CEB882 /* Names */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Names;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
