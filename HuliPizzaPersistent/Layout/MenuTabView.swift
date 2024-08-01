@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuTabView: View {
+    
     @State var tabTag = 0
     @State var selectedMenuItem:MenuItem = MenuItem()
     @State var isItemDetailsPresented:Bool = false
